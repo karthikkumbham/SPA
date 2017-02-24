@@ -16,8 +16,8 @@ namespace AngularSPA
             bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
                 "~/Scripts/knockout-{version}.js",
                 "~/Scripts/knockout.validation.js"));
-            //bundles.Add(new ScriptBundle("~/bundles/Angular").Include(
-            //                    "~/Scripts/angular.min.js"));
+            bundles.Add(new ScriptBundle("~/bundles/Angular").Include(
+                                "~/Scripts/angular.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/Scripts/app/ajaxPrefilters.js",
